@@ -1,6 +1,6 @@
 # XAuthConnect PHP Demo Client
 
-This is a demonstration of the [oauth2-xauthconnect](https://github.com/newlandpe/oauth2-xauthconnect) library, a robust OAuth 2.0 client implementation for PHP.
+This is a demonstration of the [oauth2-xauthconnect](https://github.com/xauth-ecosystem/oauth2-xauthconnect) library, a robust OAuth 2.0 client implementation for PHP.
 
 This demo showcases integration with an XAuthConnect authorization server, leveraging the library for streamlined authentication and authorization flows, including OIDC Discovery.
 
@@ -31,13 +31,13 @@ To get started with the demo client, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/newlandpe/xauthconnect-php-demo-client.git
+   git clone https://github.com/xauth-ecosystem/xauthconnect-php-demo-client.git
    cd xauthconnect-php-demo-client
    ```
 
 2. Install the dependencies using Composer:
    ```bash
-   composer require newlandpe/oauth2-xauthconnect
+   composer require xauth/oauth2-xauthconnect
    ```
 
 3. Configure the client by editing the `clientId`, `clientSecret`, `redirectUri`, and `issuer` parameters in `client.php`:
